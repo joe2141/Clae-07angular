@@ -1,0 +1,14 @@
+<form [formGroup]="formularioRegistro">
+    <mat-form-field appearance="fill">
+      <mat-label>Fill form field</mat-label>
+      <input matInput placeholder="Placeholder"
+      [formControl]="nombreControl"
+      >
+      <mat-icon matPrefix>sentiment_very_satisfied</mat-icon>
+      <mat-hint>debe tener minimo 6 caracteres</mat-hint>
+      <mat-error>Este campo es obligatorio</mat-error>
+    </mat-form-field>
+</form>
+
+
+
